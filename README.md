@@ -197,4 +197,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Built with FastAPI, React, and scikit-learn
 - Inspired by the need for trustworthy online reviews
 - Special thanks to the open-source ML community</content>
-<parameter name="filePath">c:\Users\Akash\OneDrive\Desktop\fake-review\README.md
