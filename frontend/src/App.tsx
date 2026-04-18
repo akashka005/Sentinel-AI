@@ -28,7 +28,7 @@ export default function App() {
     addLog('Analyzing neural patterns...');
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/api/v1/analyze', {
+      const response = await axios.post('https://sentinel-ai-hu0o.onrender.com/api/v1/analyze', {
         review_text: reviewText,
       });
 
@@ -146,7 +146,7 @@ export default function App() {
           <div className="p-6 bg-slate-50/50 border-t border-border flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="hidden sm:flex items-center gap-2 text-[10px] font-bold text-text-muted uppercase tracking-widest">
-                <kbd className="px-1.5 py-0.5 bg-white border border-border rounded shadow-sm font-sans">⌘</kbd>
+                <kbd className="px-1.5 py-0.5 bg-white border border-border rounded shadow-sm font-sans">Ctrl</kbd>
                 <kbd className="px-1.5 py-0.5 bg-white border border-border rounded shadow-sm font-sans">Enter</kbd>
                 <span>to Verify</span>
               </div>
